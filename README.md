@@ -1,16 +1,19 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A client-side web application built with React and Vite that allows users to browse, search, and sort movies using data from The Movie Database (TMDB) API.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Discover Movies:** Displays a list of popular movies on initial load.
+* **Search Functionality:** Filter movies by title using the search bar.
+* **Sorting Options:** Sort results by Release Date (Asc/Desc) and Vote Average (Rating) (Asc/Desc).
+* **Pagination:** Navigate through movie results page by page.
+* **Responsive Design:** Optimized for different screen sizes.
+* **API Key Secured:** Uses environment variables (`.env`) for managing the TMDB API Key.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend Framework:** React (with Functional Components and Hooks)
+* **Build Tool:** Vite
+* **Styling:** CSS
+* **API:** [The Movie Database (TMDB) API](https://www.themoviedb.org/documentation/api)
